@@ -8,22 +8,25 @@
         <script src="main.js"></script>
     </head>
     <body>
-        <main>
-            <div id="card-container">
-                <div id="card-header">
-                    <h1>Jogo de advinhação</h1>
-                    <p>Tente acertar qual número escolhi...</p>
-                </div>
-                <div id="card-content">
-                    <output class=""></output>
-                    <!-- Onde serão exibidas as respostas -->
+        <main class="card-container">
+            <section class="left-panel">
+                <h1>Jogo de Adivinhação</h1>
+                <p>Tente acertar qual número escolhi...</p>
+                <output id="result-message"></output>
+                <input
+                    id="guess-input"
+                    type="number"
+                    placeholder="Digite um número"
+                />
+                <button id="btn-guess">Chutar</button>
+                <p id="attempts"></p>
+                <p id="hint"></p>
+            </section>
 
-                    <input class="" />
-                    <button class="">Chutar</button>
-                    <p id=""></p>
-                    <p id=""></p>
-                </div>
-            </div>
+            <section class="right-panel"></section>
+            <section class="history-panel">
+                <ul id="history"></ul>
+            </section>
         </main>
     </body>
 </html>
