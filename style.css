@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     border: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -20,12 +21,27 @@ body {
 }
 .left-panel {
     width: 55%;
-    height: 300px;
+    height: 100%;
     background-color: bisque;
+}
+
+.header-panel {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    height: 25%;
+}
+
+.content-panel {
+    height: 50%;
+}
+
+.bottom {
+    height: 25%;
 }
 
 .right-panel {
     width: 45%;
-    height: 300px;
+    height: 100%;
     background-color: beige;
 }

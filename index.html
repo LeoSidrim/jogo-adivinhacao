@@ -5,22 +5,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title></title>
         <link rel="stylesheet" href="style.css" />
+
         <script src="main.js"></script>
     </head>
     <body>
         <main class="container">
             <section class="left-panel">
-                <h1>Jogo de Adivinhação</h1>
-                <p>Tente acertar qual número escolhi...</p>
-                <output id="result-message"></output>
+                <div class="header-panel">
+                    <h1>Jogo de Adivinhação</h1>
+                    <p>Tente acertar qual número escolhi...</p>
+                </div>
+                <div class="content-panel">
+                    <output id="result-message"></output>
+                </div>
                 <input
                     id="guess-input"
                     type="number"
                     placeholder="Digite um número"
                 />
-                <button id="btn-guess">Chutar</button>
-                <p id="attempts"></p>
-                <p id="hint"></p>
+                <div class="bottom">
+                    <button id="btn-guess">chutar</button>
+                    <p id="attempts"></p>
+                    <p id="hint"></p>
+                </div>
             </section>
 
             <section class="right-panel"></section>
